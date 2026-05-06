@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Outfit', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  background-color: #f8fafc; /* slate-50 */
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(210, 100%, 98%, 1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(250, 100%, 98%, 1) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(190, 100%, 96%, 1) 0, transparent 50%);
+  background-attachment: fixed;
+  color: #0f172a; /* slate-900 */
+  min-height: 100vh;
+}
+
+/* Custom scrollbar for webkit */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(241, 245, 249, 0.5); /* slate-100 */
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.5); /* slate-400 */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.6); /* slate-500 */
+}
