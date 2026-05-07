@@ -114,8 +114,7 @@ function Navbar() {
 
                     {/* Dropdown */}
 
-                    <div className="absolute right-0 mt-3 hidden group-hover:flex flex-col bg-white border border-slate-200 rounded-2xl shadow-xl w-44 overflow-hidden z-50">
-
+                    <div className="absolute right-0 top-full pt-2 hidden group-hover:flex flex-col bg-white border border-slate-200 rounded-2xl shadow-xl w-44 overflow-hidden z-50">
                         <button
                             className="px-5 py-3 text-left text-slate-600 hover:bg-slate-50 transition-all"
                         >
